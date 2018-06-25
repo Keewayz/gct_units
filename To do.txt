@@ -1,0 +1,42 @@
+﻿-fixy do wyposażenia
+
+- usunac
+
+Glowa
+H_HelmetSpecO_blk
+H_HelmetSpecO_ocamo
+//H_Booniehat_dgtl
+H_Cap_blk_Raven
+H_Cap_brn_SPECOPS
+//H_HelmetB
+/H_HelmetB_black
+/H_HelmetB_camo
+/H_HelmetB_desert
+/H_HelmetB_grass
+/H_HelmetB_sand
+/H_HelmetB_snakeskin
+/H_HelmetCrew_I
+/H_HelmetCrew_O
+/H_HelmetCrew_B
+/H_HelmetLeaderO_ocamo
+/H_HelmetLeaderO_oucamo
+//H_HelmetSpecB
+/H_HelmetSpecB_blk
+/H_HelmetSpecB_paint2
+/H_HelmetSpecB_paint1
+/H_HelmetSpecB_sand
+/H_HelmetSpecB_snakeskin
+//wszystkie H_PilotHelmetHeli_B
+//wszystkie H_HelmetB_light
+/H_MilCap_ocamo
+/H_MilCap_dgtl
+/A3_NVGHeadGearBlk_F
+//wszystkie H_PilotHelmetFighter_B
+/H_HelmetO_ocamo
+/H_HelmetO_oucamo
+
+//ace SatchelCharge_Remote_Mag
+//rhsusf_m112_mag
+//rhsusf_m112x4_mag
+
+//ACE_M84
