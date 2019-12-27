@@ -641,9 +641,6 @@ class hgun_Pistol_01_F: CHOWAMY_APEX {
 class launch_RPG7_F: CHOWAMY_APEX {
 	scope = 1; scopecurator=1;
 };
-class PSZ_RPG7V: CHOWAMY_APEX {
-	scope = 1; scopecurator=1;
-};
 class arifle_CTAR_GL_ghex_F: CHOWAMY_APEX {scope = 1; scopecurator=1;};
 class arifle_CTAR_GL_hex_F: CHOWAMY_APEX {scope = 1; scopecurator=1;};
 class arifle_CTAR_ghex_F: CHOWAMY_APEX {scope = 1; scopecurator=1;};

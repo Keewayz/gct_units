@@ -2,7 +2,7 @@ class CfgGlasses
 {
 	class None;    // External class reference 
 	class TRYK_H_ghillie_top_headless3glass: None {
-		picture = "\gct_extrastuff\data\tryk\UI_ghillie.paa";
+		picture = "\gct_units\data\gct_ins.paa";
 		hiddenSelectionsMaterials[] = {"\gct_extrastuff\data\tryk\ghillie_overall.rvmat"};
 	}; 
 	class TRYK_shoulder_armor_BK: None { 

@@ -4,12 +4,6 @@ class CfgFunctions {
 		tag     = "GCT";
 		class functions
 		{
-			/*
-			class GCT_virtualAmmoBoxPSZ
-			{
-				file = "\psz\scripts\data\VirtualArsenal.sqf";
-				description = "[_this select 0] call psz_fnc_VirtualArsenal, make a object virtual ammo box with polish gear inside";
-			};*/
 			class GCT_virtualAmmoBoxUSA
 			{
 				file = "\rhsusf\addons\rhsusf_c_weapons\scripts\virtualAmmoBox.sqf";

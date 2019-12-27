@@ -1,5 +1,5 @@
 class CfgWeapons {
-	//Zdefiniowana broń dla konkretnych ról
+	//Zdefiniowana broń dla konkretnych AI
 	#include "weapons/gct_add_weapons_AI.hpp"
 	//Chowanie podstawowego armowego syfu
 	#include "weapons/gct_hide_a3_weap.hpp"
@@ -13,4 +13,6 @@ class CfgWeapons {
 	#include "weapons/gct_add_g3_extra.hpp"
 	//Mundury GROMowcow z czasów I Wojny w Zatoce
 	#include "weapons/gct_add_uni_grom_old.hpp"
+	//Kompatybilnosc z DualArms
+	//#include "weapons/gct_fix_dualarms.hpp"
 };

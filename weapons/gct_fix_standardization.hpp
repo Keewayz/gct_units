@@ -4,7 +4,7 @@ class CUP_arifle_M16A2 : gst_m16a2 {
 	scope = 1;
 };
 
-class PSZ_AccO_Colimator;
+
 class rhsusf_acc_sniper_base;
 class rhs_acc_1p63;
 //Aimpointy
@@ -21,9 +21,10 @@ class rhsusf_acc_eotech_552_d : rhsusf_acc_eotech_552 {
 class rhsusf_acc_eotech_552_wd : rhsusf_acc_eotech_552 {	
 	displayName = "EOTech 552 (Las)";
 };
+/*class PSZ_AccO_Colimator;
 class PSZ_AccO_EOT552: PSZ_AccO_Colimator {
 	displayName = "EOTech 552 (Uzywany)";
-};
+};*/
 //EOTech EXPS2
 class rhsusf_acc_EOTECH : optic_Holosight {
 	displayName = "EOTech EXPS3 (Pustynia)";
@@ -136,16 +137,14 @@ class rhsusf_acc_anpeq15_light : rhsusf_acc_anpeq15 {
 /*class PSZ_PKM: PSZ_UKM {
 		scope = 1;
 		scopecurator =1;
-	};*/
-class rhs_pkp_base: Rifle_Long_Base_F {
-		magazines[] = {
-			"rhs_100Rnd_762x54mmR",
-			"rhs_100Rnd_762x54mmR_green",
-			"PSZ_762x54_Belt_100",
-			"PSZ_762x54_Belt_100_T_R"
-		};
 	};
 class UGL_F;
 class PSZ_UGL: UGL_F {
 	scope=1;
+};	*/
+class rhs_pkp_base: Rifle_Long_Base_F {
+	magazines[] = {
+		"rhs_100Rnd_762x54mmR",
+		"rhs_100Rnd_762x54mmR_green"
+	};
 };

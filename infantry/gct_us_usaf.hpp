@@ -11,8 +11,8 @@ class gct_rhsusf_usaf_pilot_kha : rhsusf_airforce_jetpilot {
 	Items[] = {"ACE_EarPlugs", "ACE_fieldDressing", "ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_morphine","ACRE_PRC148"};
 	RespawnItems[] = {"ACE_EarPlugs", "ACE_fieldDressing", "ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_morphine","ACRE_PRC148"};
 	
-	linkedItems[] = {"PSZ_H_THL5","lbt_pouchless_od","TRYK_ShemaghESSOD_NV","ItemGPS","ItemMap","ItemCompass","ItemWatch"};
-	respawnLinkedItems[] = {"PSZ_H_THL5","lbt_pouchless_od","TRYK_ShemaghESSOD_NV","ItemGPS","ItemMap","ItemCompass","ItemWatch"};
+	linkedItems[] = {"rhsusf_ihadss","lbt_pouchless_od","TRYK_ShemaghESSOD_NV","ItemGPS","ItemMap","ItemCompass","ItemWatch"};
+	respawnLinkedItems[] = {"rhsusf_ihadss","lbt_pouchless_od","TRYK_ShemaghESSOD_NV","ItemGPS","ItemMap","ItemCompass","ItemWatch"};
 	};
 class gct_rhsusf_usaf_pilot_coy : rhsusf_airforce_jetpilot {
 	editorPreview = "\gct_extrastuff\data\icons\logo_gct.jpg";
@@ -27,8 +27,8 @@ class gct_rhsusf_usaf_pilot_coy : rhsusf_airforce_jetpilot {
 	Items[] = {"ACE_EarPlugs", "ACE_fieldDressing", "ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_morphine","ACRE_PRC148"};
 	RespawnItems[] = {"ACE_EarPlugs", "ACE_fieldDressing", "ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_morphine","ACRE_PRC148"};
 	
-	linkedItems[] = {"PSZ_H_THL5","lbt_pouchless_coy","TRYK_ShemaghESSOD_NV","ItemGPS","ItemMap","ItemCompass","ItemWatch"};
-	respawnLinkedItems[] = {"PSZ_H_THL5","lbt_pouchless_coy","TRYK_ShemaghESSOD_NV","ItemGPS","ItemMap","ItemCompass","ItemWatch"};
+	linkedItems[] = {"rhsusf_ihadss","lbt_pouchless_coy","TRYK_ShemaghESSOD_NV","ItemGPS","ItemMap","ItemCompass","ItemWatch"};
+	respawnLinkedItems[] = {"rhsusf_ihadss","lbt_pouchless_coy","TRYK_ShemaghESSOD_NV","ItemGPS","ItemMap","ItemCompass","ItemWatch"};
 	};
 class gct_rhsusf_usaf_pilot_ucp : rhsusf_airforce_jetpilot {
 	editorPreview = "\gct_extrastuff\data\icons\logo_gct.jpg";
@@ -43,8 +43,8 @@ class gct_rhsusf_usaf_pilot_ucp : rhsusf_airforce_jetpilot {
 	Items[] = {"ACE_EarPlugs", "ACE_fieldDressing", "ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_morphine","ACRE_PRC148"};
 	RespawnItems[] = {"ACE_EarPlugs", "ACE_fieldDressing", "ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_morphine","ACRE_PRC148"};
 	
-	linkedItems[] = {"PSZ_H_THL5","lbt_pouchless_od","ItemGPS","ItemMap","ItemCompass","ItemWatch"};
-	respawnLinkedItems[] = {"PSZ_H_THL5","lbt_pouchless_od","ItemGPS","ItemMap","ItemCompass","ItemWatch"};
+	linkedItems[] = {"rhsusf_ihadss","lbt_pouchless_od","ItemGPS","ItemMap","ItemCompass","ItemWatch"};
+	respawnLinkedItems[] = {"rhsusf_ihadss","lbt_pouchless_od","ItemGPS","ItemMap","ItemCompass","ItemWatch"};
 	};
 class gct_rhsusf_airforce_jetpilot : rhsusf_airforce_jetpilot {
 	editorPreview = "\gct_extrastuff\data\icons\logo_gct.jpg";

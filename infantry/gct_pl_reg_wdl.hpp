@@ -94,8 +94,8 @@ class gct_psz_infantry_wdl10_base : rhsusf_infantry_usmc_base {
 	Items[] = {"ACE_CableTie","ACE_EarPlugs", "ACE_fieldDressing", "ACE_fieldDressing","ACE_fieldDressing", "ACE_fieldDressing","ACE_morphine"};
 	RespawnItems[] = {"ACE_CableTie", "ACE_EarPlugs", "ACE_fieldDressing", "ACE_fieldDressing","ACE_fieldDressing", "ACE_fieldDressing","ACE_morphine"};
 
-    linkedItems[] = {"PSZ_V_UKO_H_WDL_R", "PSZ_H_wz2005_wdl", Standard_Equipment};
-	respawnLinkedItems[] = {"PSZ_V_UKO_H_WDL_R", "PSZ_H_wz2005_wdl", Standard_Equipment};
+    linkedItems[] = {"PSZ_V_UKO_H_WDL_R", "PSZ_H_wz2005_wdl", "ItemMap","ItemCompass","ItemWatch"};
+	respawnLinkedItems[] = {"PSZ_V_UKO_H_WDL_R", "PSZ_H_wz2005_wdl", "ItemMap","ItemCompass","ItemWatch"};
 
 	headgearList[] = {
 		"PSZ_H_wz2005_CAMO",0.35,
@@ -126,8 +126,8 @@ class gct_psz_wdl10_rifleman : gct_psz_infantry_wdl10_base {
 		uniformClass = "PSZ_U_PL_wdl_wz2010_Crye";
 
 
-        linkedItems[] = {"PSZ_V_UKO_H_WDL_R", "PSZ_H_wz2005_wdl", Standard_Equipment};
-		respawnLinkedItems[] = {"PSZ_V_UKO_H_WDL_R", "PSZ_H_wz2005_wdl", Standard_Equipment};
+        linkedItems[] = {"PSZ_V_UKO_H_WDL_R", "PSZ_H_wz2005_wdl", "ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"PSZ_V_UKO_H_WDL_R", "PSZ_H_wz2005_wdl", "ItemMap","ItemCompass","ItemWatch"};
 
 		weapons[] = {"PSZ_Beryl04_G_EOT","Throw","Put"};
 		respawnWeapons[] = {"PSZ_Beryl04_G_EOT","Throw","Put"};
@@ -203,8 +203,8 @@ class gct_psz_wdl10_riflemanat : gct_psz_wdl10_rifleman {
 		threat[] = {1,0.7,0.3};
 		icon = "iconManAT";
 
-		linkedItems[] = {"PSZ_V_UKO_H_WDL_R", "PSZ_H_wz2005_wdl", Standard_Equipment};
-		respawnLinkedItems[] = {"PSZ_V_UKO_H_WDL_R", "PSZ_H_wz2005_wdl", Standard_Equipment};
+		linkedItems[] = {"PSZ_V_UKO_H_WDL_R", "PSZ_H_wz2005_wdl", "ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"PSZ_V_UKO_H_WDL_R", "PSZ_H_wz2005_wdl", "ItemMap","ItemCompass","ItemWatch"};
 
 		weapons[] = {"PSZ_Beryl04_G_EOT","rhs_weap_M136","Throw","Put"};
 		respawnWeapons[] = {"PSZ_Beryl04_G_EOT","rhs_weap_M136","Throw","Put"};
@@ -256,8 +256,8 @@ class gct_psz_wdl10_grenadier : gct_psz_wdl10_rifleman {
 	cost = 130000;
 		threat[] = {1,0.3,0.1};
 
-		linkedItems[] = {"PSZ_V_UKO_H_WDL_GL_Headset", "PSZ_H_wz2005_OLIVE_ESS", Standard_Equipment};
-		respawnLinkedItems[] = {"PSZ_V_UKO_H_WDL_GL_Headset", "PSZ_H_wz2005_OLIVE_ESS", Standard_Equipment};
+		linkedItems[] = {"PSZ_V_UKO_H_WDL_GL_Headset", "PSZ_H_wz2005_OLIVE_ESS", "ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"PSZ_V_UKO_H_WDL_GL_Headset", "PSZ_H_wz2005_OLIVE_ESS", "ItemMap","ItemCompass","ItemWatch"};
 
 		weapons[] = {"PSZ_Beryl96_Pallad_G_EOT","Throw","Put"};
 		respawnWeapons[] = {"PSZ_Beryl96_Pallad_G_EOT","Throw","Put"};
@@ -327,8 +327,8 @@ class gct_psz_wdl10_pkm : gct_psz_wdl10_rifleman {
 		threat[] = {1,0.1,0.3};
 		icon = "iconManMG";
 
-		linkedItems[] = {"PSZ_V_UKO_H_wdl_MG_Headset", "PSZ_H_wz2005_OLIVE_ESS", Standard_Equipment};
-		respawnLinkedItems[] = {"PSZ_V_UKO_H_wdl_MG_Headset", "PSZ_H_wz2005_OLIVE_ESS", Standard_Equipment};
+		linkedItems[] = {"PSZ_V_UKO_H_wdl_MG_Headset", "PSZ_H_wz2005_OLIVE_ESS", "ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"PSZ_V_UKO_H_wdl_MG_Headset", "PSZ_H_wz2005_OLIVE_ESS", "ItemMap","ItemCompass","ItemWatch"};
 
 		backpack = "GCT_B_PKM";
 		weapons[] = 
@@ -366,8 +366,8 @@ class gct_psz_wdl10_pkm_ass : gct_psz_wdl10_rifleman {
 	GCT_Author_Macro
 	displayName= "KM Asystent (PKM)";
 
-	linkedItems[] = {"PSZ_V_UKO_L_WDL_R", "PSZ_H_wz2005_CAMO_ESS", Standard_Equipment};
-	respawnLinkedItems[] = {"PSZ_V_UKO_L_WDL_R", "PSZ_H_wz2005_CAMO_ESS", Standard_Equipment};
+	linkedItems[] = {"PSZ_V_UKO_L_WDL_R", "PSZ_H_wz2005_CAMO_ESS", "ItemMap","ItemCompass","ItemWatch"};
+	respawnLinkedItems[] = {"PSZ_V_UKO_L_WDL_R", "PSZ_H_wz2005_CAMO_ESS", "ItemMap","ItemCompass","ItemWatch"};
 		
 	weapons[] = {"PSZ_Beryl04_G_EOT","Throw","Put","Binocular"};
 	respawnWeapons[] = {"PSZ_Beryl04_G_EOT","Throw","Put","Binocular"};
@@ -434,8 +434,8 @@ class gct_psz_wdl10_co : gct_psz_wdl10_rifleman {
 		sensitivity = 3;
 		icon = "iconManOfficer";
 
-		linkedItems[] = {"PSZ_V_UKO_H_wdl_CO_Headset", "PSZ_H_wz2005_wdl_ESS",Standard_Equipment};
-		respawnLinkedItems[] = {"PSZ_V_UKO_H_wdl_CO_Headset", "PSZ_H_wz2005_wdl_ESS",Standard_Equipment};
+		linkedItems[] = {"PSZ_V_UKO_H_wdl_CO_Headset", "PSZ_H_wz2005_wdl_ESS","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"PSZ_V_UKO_H_wdl_CO_Headset", "PSZ_H_wz2005_wdl_ESS","ItemMap","ItemCompass","ItemWatch"};
 
 		weapons[] = 
 		{
@@ -505,8 +505,8 @@ class gct_psz_wdl10_sl : gct_psz_wdl10_rifleman {
 		sensitivity = 3.3;
 		icon = "iconManOfficer";
 
-		linkedItems[] = {"PSZ_V_UKO_H_wdl_CO_Headset", "PSZ_H_wz2005_wdl_ESS",  Standard_Equipment};
-		respawnLinkedItems[] = {"PSZ_V_UKO_H_wdl_CO_Headset", "PSZ_H_wz2005_wdl_ESS",  Standard_Equipment};
+		linkedItems[] = {"PSZ_V_UKO_H_wdl_CO_Headset", "PSZ_H_wz2005_wdl_ESS",  "ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"PSZ_V_UKO_H_wdl_CO_Headset", "PSZ_H_wz2005_wdl_ESS",  "ItemMap","ItemCompass","ItemWatch"};
 
 		weapons[] = 
 		{
@@ -579,8 +579,8 @@ class gct_psz_wdl10_tl : gct_psz_infantry_wdl10_base {
 		sensitivity = 3.3;
 		icon = "iconManLeader";
 
-        linkedItems[] = {"PSZ_V_UKO_L_wdl_CO_Headset", "PSZ_H_wz2005_OLIVE_ESS",Standard_Equipment};
-		respawnLinkedItems[] = {"PSZ_V_UKO_L_wdl_CO_Headset", "PSZ_H_wz2005_OLIVE_ESS",Standard_Equipment};
+        linkedItems[] = {"PSZ_V_UKO_L_wdl_CO_Headset", "PSZ_H_wz2005_OLIVE_ESS","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"PSZ_V_UKO_L_wdl_CO_Headset", "PSZ_H_wz2005_OLIVE_ESS","ItemMap","ItemCompass","ItemWatch"};
 
 		weapons[] = {"PSZ_Beryl96_Pallad_G_EOT","Binocular","Throw","Put"};
 		respawnWeapons[] = {"PSZ_Beryl96_Pallad_G_EOT","Binocular","Throw","Put"};
@@ -637,8 +637,8 @@ class gct_psz_wdl10_engineer : gct_psz_wdl10_rifleman {
 		icon = "iconManEngineer";
 		picture = "pictureRepair";
 
-        linkedItems[] = {"PSZ_V_UKO_H_WDL_R_Headset", "PSZ_H_wz2005_OLIVE_ESS", Standard_Equipment};
-		respawnLinkedItems[] = {"PSZ_V_UKO_H_WDL_R_Headset", "PSZ_H_wz2005_OLIVE_ESS", Standard_Equipment};
+        linkedItems[] = {"PSZ_V_UKO_H_WDL_R_Headset", "PSZ_H_wz2005_OLIVE_ESS", "ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"PSZ_V_UKO_H_WDL_R_Headset", "PSZ_H_wz2005_OLIVE_ESS", "ItemMap","ItemCompass","ItemWatch"};
 
 		weapons[] = {"PSZ_BerylMini04_EOT","Throw","Put"};
 		respawnWeapons[] = {"PSZ_BerylMini04_EOT","Throw","Put"};
@@ -685,8 +685,8 @@ class gct_psz_wdl10_explosives : gct_psz_wdl10_rifleman {
 		icon = "iconManExplosive";
 		picture = "pictureExplosive";
 		
-        linkedItems[] = {"PSZ_V_UKO_H_WDL_R_Headset", "PSZ_H_wz2005_wdl_ESS",  Standard_Equipment};
-		respawnLinkedItems[] = {"PSZ_V_UKO_H_WDL_R_Headset", "PSZ_H_wz2005_wdl_ESS",  Standard_Equipment};
+        linkedItems[] = {"PSZ_V_UKO_H_WDL_R_Headset", "PSZ_H_wz2005_wdl_ESS",  "ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"PSZ_V_UKO_H_WDL_R_Headset", "PSZ_H_wz2005_wdl_ESS",  "ItemMap","ItemCompass","ItemWatch"};
 		
 		weapons[] = {"PSZ_BerylMini04_EOT","Throw","Put"};
 		respawnWeapons[] = {"PSZ_BerylMini04_EOT","Throw","Put"};
@@ -729,8 +729,8 @@ class gct_psz_wdl10_medic : gct_psz_wdl10_rifleman {
 		GCT_Author_Macro
 		displayName= "Medyk";
         uniformClass = "PSZ_U_PL_wdl_wz2010_Crye_Folded";
-		linkedItems[] = {"PSZ_V_UKO_H_WDL_M", "PSZ_H_wz2005_wdl", Standard_Equipment};
-		respawnLinkedItems[] = {"PSZ_V_UKO_H_WDL_M", "PSZ_H_wz2005_wdl", Standard_Equipment};
+		linkedItems[] = {"PSZ_V_UKO_H_WDL_M", "PSZ_H_wz2005_wdl", "ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"PSZ_V_UKO_H_WDL_M", "PSZ_H_wz2005_wdl", "ItemMap","ItemCompass","ItemWatch"};
 		
 		weapons[] = {"PSZ_BerylMini04_EOT","Throw","Put"};
 		respawnWeapons[] = {"PSZ_BerylMini04_EOT","Throw","Put"};
@@ -801,8 +801,8 @@ class gct_psz_wdl10_rpg : gct_psz_wdl10_riflemanat {
 
 		backpack = "GCT_B_RPG7";
 
-		linkedItems[] = {"PSZ_V_UKO_L_WDL_R", "PSZ_H_wz2005_OLIVE_ESS", Standard_Equipment};
-		respawnLinkedItems[] = {"PSZ_V_UKO_L_WDL_R", "PSZ_H_wz2005_OLIVE_ESS", Standard_Equipment};
+		linkedItems[] = {"PSZ_V_UKO_L_WDL_R", "PSZ_H_wz2005_OLIVE_ESS", "ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"PSZ_V_UKO_L_WDL_R", "PSZ_H_wz2005_OLIVE_ESS", "ItemMap","ItemCompass","ItemWatch"};
 
 		weapons[] = 
 		{
@@ -869,8 +869,8 @@ class gct_psz_wdl10_spike : gct_psz_wdl10_rpg {
 
 		//backpack = "PSZ_B_wz97_wdl";
 
-		linkedItems[] = {"PSZ_V_UKO_L_WDL_R_Headset", "PSZ_H_wz2005_wdl_ESS", Standard_Equipment};
-		respawnLinkedItems[] = {"PSZ_V_UKO_L_WDL_R_Headset", "PSZ_H_wz2005_wdl_ESS", Standard_Equipment};
+		linkedItems[] = {"PSZ_V_UKO_L_WDL_R_Headset", "PSZ_H_wz2005_wdl_ESS", "ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"PSZ_V_UKO_L_WDL_R_Headset", "PSZ_H_wz2005_wdl_ESS", "ItemMap","ItemCompass","ItemWatch"};
 
 		weapons[] = 
 		{
@@ -953,8 +953,8 @@ class gct_psz_wdl10_marksman: gct_psz_wdl10_rifleman {
 	cost = 150000;
 		sensitivity = 3.3;
 
-		linkedItems[] = {"PSZ_V_UKO_L_wdl_R", "PSZ_H_wz2005_wdl",Standard_Equipment};
-		respawnLinkedItems[] = {"PSZ_V_UKO_L_wdl_R", "PSZ_H_wz2005_wdl",Standard_Equipment};
+		linkedItems[] = {"PSZ_V_UKO_L_wdl_R", "PSZ_H_wz2005_wdl","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"PSZ_V_UKO_L_wdl_R", "PSZ_H_wz2005_wdl","ItemMap","ItemCompass","ItemWatch"};
 
 		weapons[] = {"PSZ_Bor_Leu_M3","Binocular","Throw","Put"};
 		respawnWeapons[] = {"PSZ_Bor_Leu_M3","Binocular","Throw","Put"};
@@ -998,8 +998,8 @@ class gct_psz_wdl10_crewman : gct_psz_infantry_wdl10_base {
 		Items[] = {"ACE_CableTie","ACE_EarPlugs","ACE_fieldDressing","ACE_fieldDressing"};
 		RespawnItems[] = {"ACE_CableTie", "ACE_EarPlugs", "ACE_fieldDressing", "ACE_fieldDressing","ACE_fieldDressing", "ACE_fieldDressing","ACE_morphine"};
 
-        linkedItems[] = {"PSZ_V_Kontraktor_WDL", "PSZ_H_wz2005_wdl","ItemGPS",Standard_Equipment};
-		respawnLinkedItems[] = {"PSZ_V_Kontraktor_WDL", "PSZ_H_wz2005_wdl","ItemGPS",Standard_Equipment};
+        linkedItems[] = {"PSZ_V_Kontraktor_WDL", "PSZ_H_wz2005_wdl","ItemGPS","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"PSZ_V_Kontraktor_WDL", "PSZ_H_wz2005_wdl","ItemGPS","ItemMap","ItemCompass","ItemWatch"};
 
 		weapons[] = {"PSZ_BerylMini04_EOT","Binocular","Throw","Put"};
 		respawnWeapons[] = {"PSZ_BerylMini04_EOT","Binocular","Throw","Put"};

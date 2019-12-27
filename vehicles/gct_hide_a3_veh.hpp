@@ -784,7 +784,7 @@ class B_APC_Wheeled_01_cannon_F : B_APC_Wheeled_01_base_F {
 };
 class GCT_Rosomak_WDL : B_APC_Wheeled_01_cannon_F {
 	displayName = "Rosomak (Las)";
-	crew = "gct_psz_wdl10_crewman";
+	//crew = "gct_psz_wdl10_crewman";
 	hiddenSelections[]=
 		{
 			"camo1",
@@ -800,7 +800,7 @@ class GCT_Rosomak_WDL : B_APC_Wheeled_01_cannon_F {
 };
 class GCT_Rosomak_Tan : B_APC_Wheeled_01_cannon_F {
 	displayName = "Rosomak (Pustynia)";
-	crew = "gct_psz_desl10_crewman";
+	//crew = "gct_psz_desl10_crewman";
 	hiddenSelections[]=
 		{
 			"camo1",
@@ -814,7 +814,7 @@ class GCT_Rosomak_Tan : B_APC_Wheeled_01_cannon_F {
 			"gct_extrastuff\data\roso\apc_wheeled_01_tows_tan_co.paa"
 		};	
 };
-
+/*
 //Polaki
 class PSZ_PL_Tumak2_UKM;
 class PSZ_PL_Tumak2;
@@ -870,7 +870,7 @@ class PSZ_PL_Zbik_M97_W : PSZ_PL_Zbik_M97 {
 	faction = "gct_units";
 	vehicleClass = "gct_veh"; editorSubcategory = "gct_veh";		
 };
-
+*/
 //Boats
 class I_G_Boat_Transport_01_F;
 class B_Boat_Armed_01_minigun_F : Boat_Armed_01_minigun_base_F {

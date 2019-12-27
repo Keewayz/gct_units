@@ -235,19 +235,19 @@
 	};
 	class TRYK_H_PASGT_BLK: H_HelmetB {
 		scope = 1;
-		picture = "\gct_extrastuff\data\icons\icon_u_PASGT_blk_ca.paa";
+		picture = "\gct_units\data\gct_ins.paa";
 	};
 	class TRYK_H_PASGT_OD: H_HelmetB {
 		scope = 1;
-		picture = "\gct_extrastuff\data\icons\icon_u_PASGT_coyo_ca.paa";
+		picture = "\gct_units\data\gct_ins.paa";
 	};
 	class TRYK_H_PASGT_COYO: H_HelmetB {
 		scope = 1;
-		picture = "\gct_extrastuff\data\icons\icon_u_PASGT_od_ca.paa";
+		picture = "\gct_units\data\gct_ins.paa";
 	};
 	class TRYK_H_PASGT_TAN: H_HelmetB {
 		scope = 1;
-		picture = "\gct_extrastuff\data\icons\icon_u_PASGT_tan_ca.paa";
+		picture = "\gct_units\data\gct_ins.paa";
 	};
 	class TRYK_H_Helmet_Snow: H_HelmetB {
 		scope = 1;
@@ -363,7 +363,7 @@
 	//zabb2
 	//czapy//
 	class TRYK_H_ghillie_top_headless3: H_HelmetB {
-		picture = "\gct_extrastuff\data\tryk\UI_ghillie.paa";
+		picture = "\gct_units\data\gct_ins.paa";
 		hiddenSelectionsMaterials[] = {"\gct_extrastuff\data\tryk\ghillie_overall.rvmat"};
 	}; 
 	//kamizele//

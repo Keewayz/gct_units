@@ -8,8 +8,8 @@ class gct_sf_pl_jwk_wdl_base : rhsusf_infantry_usmc_base {
 	asr_ai_level = 8;
 	camouflage = 1.2;	
 	
-	genericNames = "PSZ_PolishMen";
-	identityTypes[] = {"PSZ_Man"};	
+	genericNames = "EnochMen";
+	identityTypes[] = {"LanguagePOL_F","Head_Enoch","Head_Euro","G_HAF_default"};
 	
 	weapons[] = {"gct_rhs_weap_hk416d10_wd_LMT_eot552","Throw","Put"};
 	respawnWeapons[] = {"gct_rhs_weap_hk416d10_wd_LMT_eot552","Throw","Put"};

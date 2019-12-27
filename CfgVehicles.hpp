@@ -6,27 +6,36 @@ class CfgVehicles {
 	class rhsusf_infantry_usmc_base: rhsusf_infantry_army_base {
 		class EventHandlers;
 	};
-	class PSZ_PL_Soldier_Rifleman;
+	//class PSZ_PL_Soldier_Rifleman;
 	class ACE_medicalSupplyCrate_advanced;
 	#define GCT_Author_Macro author=Keeway; faction = "gct_units";
+	
 	#define Standard_Equipment ItemMap,ItemCompass,ItemWatch,ItemRadio
+	
 	#define GCT_Mac_Inf_Army_OCP editorSubcategory = "gct_rhs_us_wdl"; vehicleClass = "gct_rhs_us_wdl";\
 		uniformClass = "rhs_uniform_cu_ocp";\
 		Items[] = {"ACE_CableTie", "ACE_EarPlugs", "ACE_fieldDressing", "ACE_fieldDressing","ACE_fieldDressing", "ACE_fieldDressing","ACE_morphine"};\
 		RespawnItems[] = {"ACE_CableTie", "ACE_EarPlugs", "ACE_fieldDressing", "ACE_fieldDressing","ACE_fieldDressing", "ACE_fieldDressing","ACE_morphine"};\
 		GCT_Author_Macro
+	
 	#define GCT_Mac_Inf_Army_UCP editorSubcategory = "gct_rhs_us_des"; vehicleClass = "gct_rhs_us_des";\
 		uniformClass = "rhs_uniform_cu_ucp";\
 		Items[] = {"ACE_CableTie", "ACE_EarPlugs", "ACE_fieldDressing", "ACE_fieldDressing","ACE_fieldDressing", "ACE_fieldDressing","ACE_morphine"};\
 		RespawnItems[] = {"ACE_CableTie", "ACE_EarPlugs", "ACE_fieldDressing", "ACE_fieldDressing","ACE_fieldDressing", "ACE_fieldDressing","ACE_morphine"};\
 		GCT_Author_Macro
+	
 	#define GCT_Mac_Inf_Army_PSZ editorSubcategory = "gct_psz_des"; vehicleClass = "gct_psz_des";\
 		Items[] = {"ACE_CableTie", "ACE_EarPlugs", "ACE_fieldDressing", "ACE_fieldDressing","ACE_fieldDressing", "ACE_fieldDressing","ACE_morphine"};\
 		RespawnItems[] = {"ACE_CableTie","ACE_EarPlugs", "ACE_fieldDressing", "ACE_fieldDressing","ACE_fieldDressing", "ACE_fieldDressing","ACE_morphine"};\
-		GCT_Author_Macro	
+		GCT_Author_Macro
+	
+	#define GCT_Mac_Inf_Army_USM_base Items[] = {"ACE_CableTie","ACE_EarPlugs","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_morphine","usm_bdu_cap_wdl","rhsusf_ANPVS_14"}; \
+		RespawnItems[] = {"ACE_CableTie","ACE_EarPlugs","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_morphine","usm_bdu_cap_wdl","rhsusf_ANPVS_14"};
+	
 	#define GCT_Mac_Inf_USMC_D editorSubcategory = "gct_rhs_usmc_des"; vehicleClass = "gct_rhs_usmc_des";\
 		uniformClass = "rhs_uniform_FROG01_d";\
 		GCT_Author_Macro	
+	
 	#define GCT_Mac_Inf_AOR2 editorSubcategory = "gct_seal_aor2"; vehicleClass = "gct_seal_aor2";\
 		uniformClass = "Gen3_aor2";\
 		headgearList[] = { \
@@ -60,15 +69,13 @@ class CfgVehicles {
 	#include "vehicles/gct_add_map_obj.hpp"
 	//dodaje ryj winiego na jednym z targetow
 	#include "vehicles/gct_add_target.hpp"
+	//dodaje animacje do ACE
+	#include "vehicles/gct_add_anims.hpp"	
 	//standaryzacja nazw i wrzucenie do sekcji "pojazdy" - EWK HMMWV oraz MRAPow
 	#include "vehicles/gct_fix_ewkmrap.hpp"	
 	//Jednostki
 	//SF GEN
-    #include "infantry/gct_gen_sf_casu.hpp"	
-	//PSZ (Pustynia)
-    #include "infantry/gct_pl_reg_des.hpp"		
-	//PSZ (Las)
-    #include "infantry/gct_pl_reg_wdl.hpp"		
+    #include "infantry/gct_gen_sf_casu.hpp"		
 	//JWK Las
 	#include "infantry/gct_pl_sf_jwk_fg.hpp"	
 	//GROM Camogrom
@@ -95,4 +102,8 @@ class CfgVehicles {
 	#include "infantry/gct_usm_workspace.hpp"
 	//OPFOR
 	#include "infantry/gct_opf_ziut.hpp"
+	//PSZ (Pustynia)
+    //#include "infantry/gct_pl_reg_des.hpp"		
+	//PSZ (Las)
+    //#include "infantry/gct_pl_reg_wdl.hpp"		
 };

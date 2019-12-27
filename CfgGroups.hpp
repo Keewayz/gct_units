@@ -2782,7 +2782,7 @@ class CfgGroups {
 					};			
 				};
 			};	
-			class GCT_PSZ_WDL {
+			/*class GCT_PSZ_WDL {
 				name = "Wojsko Polskie (2010, Las)";
 				class GCT_PSZ_WDL_Squad
 				{
@@ -3059,7 +3059,7 @@ class CfgGroups {
 						position[] = {7,0,0};
 					};			
 				};
-			};			
+			};*/			
 		};
 		//hide
 		class BLU_F {

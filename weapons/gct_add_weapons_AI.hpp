@@ -10,7 +10,7 @@ class rhs_weap_m16a4;
 class rhs_weap_m249_pip_S;
 class rhs_weap_m240B;
 class Rifle_Base_F;
-class PSZ_UKM;
+//class PSZ_UKM;
 class Rifle_Long_Base_F;
 class arifle_MX_Base_F: Rifle_Base_F {};
 class rhs_weap_m4_Base : arifle_MX_Base_F {};
@@ -324,7 +324,7 @@ class gct_rhs_weap_hk416d10_eot552 : rhs_weap_hk416d10 {
     class LinkedItemsOptic
     {
       slot = "CowsSlot";
-      item = "PSZ_AccO_EOT552";
+      item = "rhsusf_acc_EOTECH";
     };
     class LinkedItemsAcc
     {
@@ -370,7 +370,7 @@ class gct_rhs_weap_hk416d10_LMT_eot552 : rhs_weap_hk416d10_LMT {
     class LinkedItemsOptic
     {
       slot = "CowsSlot";
-      item = "PSZ_AccO_EOT552";
+      item = "rhsusf_acc_EOTECH";
     };
     class LinkedItemsAcc
     {
@@ -416,7 +416,7 @@ class gct_rhs_weap_hk416d10_d_LMT_eot552 : rhs_weap_hk416d10_LMT_d {
     class LinkedItemsOptic
     {
       slot = "CowsSlot";
-      item = "PSZ_AccO_EOT552";
+      item = "rhsusf_acc_EOTECH";
     };
     class LinkedItemsAcc
     {
@@ -462,7 +462,7 @@ class gct_rhs_weap_hk416d10_wd_LMT_eot552 : rhs_weap_hk416d10_LMT_wd {
     class LinkedItemsOptic
     {
       slot = "CowsSlot";
-      item = "PSZ_AccO_EOT552";
+      item = "rhsusf_acc_EOTECH";
     };
     class LinkedItemsAcc
     {
@@ -508,7 +508,7 @@ class gct_rhs_weap_hk416d10_m320_eot552 : rhs_weap_hk416d10_m320 {
     class LinkedItemsOptic
     {
       slot = "CowsSlot";
-      item = "PSZ_AccO_EOT552";
+      item = "rhsusf_acc_EOTECH";
     };
     class LinkedItemsAcc
     {
@@ -539,7 +539,7 @@ class gct_rhs_weap_hk416d145_eot552 : rhs_weap_hk416d145 {
     class LinkedItemsOptic
     {
       slot = "CowsSlot";
-      item = "PSZ_AccO_EOT552";
+      item = "rhsusf_acc_EOTECH";
     };
     class LinkedItemsAcc
     {
@@ -585,7 +585,7 @@ class gct_rhs_weap_hk416d145_m320_eot552 : rhs_weap_hk416d145_m320 {
     class LinkedItemsOptic
     {
       slot = "CowsSlot";
-      item = "PSZ_AccO_EOT552";
+      item = "rhsusf_acc_EOTECH";
     };
     class LinkedItemsAcc
     {
@@ -645,7 +645,7 @@ class gct_rhs_weap_m249_para_eot552 : rhs_weap_m249_pip_S_para {
 	class LinkedItems {
 		class LinkedItemsOptic {
 			slot = "CowsSlot";
-			item = "PSZ_AccO_EOT552";
+			item = "rhsusf_acc_EOTECH";
 		};
 	};
 };

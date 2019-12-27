@@ -8,7 +8,7 @@ class CfgPatches {
 			"rhsusf_main",
 			"rhsusf_c_weapons",
 			"A3_Characters_F",
-			"psz_weapons",
+			//"psz_weapons",
 			"GCT_extrastuff",
 			"A3_GPNVG18",
 			"3DEN",
@@ -125,14 +125,14 @@ class CfgPatches {
 			"A3_Soft_F_Gamma_Van_01",
 			"A3_Soft_F_Offroad_01",
 			"A3_Soft_F_Quadbike_01",
-			"A3_Soft_F_Orange_Van_02"
+			"A3_Soft_F_Orange_Van_02",
+			"A3_Ui_F_Tank"
 		};
-		version = "0.9.1";
+		version = "0.9.3";
 		author = "Keeway";
 		authorUrl = "www.armagct.pl";
 	};
 };
-
 //Insygnia do Arsenału
 class CfgUnitInsignia {
 	class gct {

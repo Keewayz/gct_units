@@ -36,7 +36,7 @@ class GCT_RU_VA: GCT_AmmoBox {
     class TransportWeapons {};
     class TransportItems {};
 };
-class GCT_PSZ_VA: GCT_AmmoBox {
+/*class GCT_PSZ_VA: GCT_AmmoBox {
 	scope = 2;
 	scopeCurator = 2;
 	model = "\rhsusf\addons\rhsusf_weapons2\ammoboxes2\rhsusf_pallet.p3d";		
@@ -47,7 +47,7 @@ class GCT_PSZ_VA: GCT_AmmoBox {
     class TransportMagazines {};
     class TransportWeapons {};
     class TransportItems {};
-};
+};*/
 class GCT_A3_VA: GCT_AmmoBox {
 	scope = 2;
 	scopeCurator = 2;
@@ -238,11 +238,7 @@ class GCT_Equipment: GCT_AmmoBox {
 			name = "rhsusf_acc_SpecterDR_CX_3D";
 			count = 30;
 		};	
-		//EOTechy
-		class PSZ_AccO_EOT552 {
-			name = "PSZ_AccO_EOT552";
-			count = 10;
-		};		
+		//EOTechy	
 		class rhsusf_acc_eotech_552{
 			name = "rhsusf_acc_eotech_552";
 			count = 10;
@@ -286,10 +282,10 @@ class GCT_Equipment: GCT_AmmoBox {
 			count = 5;			
 		};		
 		//Tablety
-		class ItemcTab {
+		/*class ItemcTab {
 			name = "ItemcTab";
 			count = 5;			
-		};		
+		};	*/	
 		class ALIVE_Tablet {
 			name = "ALIVE_Tablet";
 			count = 1;	
@@ -460,7 +456,8 @@ class GCT_Backpacks: GCT_AmmoBox {
 			backpack = "GCT_B_WDL_M240";
 			count = 2;
 		};			
-		//PSZ
+/*
+//PSZ
 		class GCT_B_SL_PSZ {
 			backpack = "GCT_B_SL_PSZ";
 			count = 3;
@@ -477,6 +474,7 @@ class GCT_Backpacks: GCT_AmmoBox {
 			backpack = "GCT_B_RPG7";
 			count = 3;
 		};
+*/			
 		//SOF
 		class GCT_B_WDL_SEAL_SL {
 			backpack = "GCT_B_WDL_SEAL_SL";
@@ -489,7 +487,7 @@ class GCT_Backpacks: GCT_AmmoBox {
 		class GCT_B_WDL_SF_MAAWS {
 			backpack = "GCT_B_WDL_SF_MAAWS";
 			count = 1;			
-		};				
+		};			
 		//USM
 		class GCT_B_USM_SL {
 			backpack = "GCT_B_USM_SL";
@@ -553,7 +551,6 @@ class GCT_Backpacks: GCT_AmmoBox {
 };
 class GCT_Medical: ACE_medicalSupplyCrate_advanced {
 	author = "Keeway";
-	vehicleClass = "PSZ_AmmoBoxes";
 	transportMaxWeapons = 500;
     transportMaxMagazines = 5000;
 	maximumLoad = 20000;
@@ -658,6 +655,7 @@ class GCT_Boot_Camp: GCT_AmmoBox {
 	
 };
 //Hide Crates
+/*
 class PSZ_AmmoBox;
 class PSZ_AmmoBox_Rifles: PSZ_AmmoBox {
 	scope = 1;
@@ -683,3 +681,4 @@ class PSZ_VirtualAmmoBox: B_supplyCrate_F {
 	scope = 1;
 	scopeCurator = 1;
 };
+*/

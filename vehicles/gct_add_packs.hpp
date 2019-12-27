@@ -3,14 +3,10 @@ class TRYK_B_Medbag;
 class B_Carryall_cbr;
 class TRYK_B_BAF_BAG_CYT;
 class TRYK_B_BAF_BAG_OD;
-class PSZ_B_wz93_WDL;
 class TRYK_B_Coyotebackpack;
 class TRYK_B_Coyotebackpack_OD;
 class rhsusf_assault_eagleaiii_coy;
-class PSZ_B_wz93_Medical_WDL;
-class PSZ_B_wz93_MG_PKM_WDL;
 class rhs_rpg_empty;
-class PSZ_B_wz97_WDL;
 class fatpack_od;
 class fatpack_coy;
 
@@ -20,28 +16,32 @@ class GCT_B_Explo: B_Carryall_cbr {
     scopeCurator = 1; scopeArsenal = 1;
     GCT_Author_Macro
 	displayName = "[GCT]Plecak (EOD)";
-class TransportItems {
-	class ACE_DefusalKit {
-		name = "ACE_DefusalKit";
-		count = 1;
-};
-	class ACE_Clacker {
-		name = "ACE_Clacker";
-		count = 1;
-};
-	class SatchelCharge_Remote_Mag {
-		name = "SatchelCharge_Remote_Mag";
-		count = 2;
-};
-	class DemoCharge_Remote_Mag {
-		name = "DemoCharge_Remote_Mag";
-		count = 2;
-};
-	class ClaymoreDirectionalMine_Remote_Mag {
-		name = "ClaymoreDirectionalMine_Remote_Mag";
-		count = 3;
-};
-};
+	class TransportItems {
+		class ACE_DefusalKit {
+			name = "ACE_DefusalKit";
+			count = 1;
+		};
+		class ACE_Clacker {
+			name = "ACE_Clacker";
+			count = 1;
+		};
+		class SatchelCharge_Remote_Mag {
+			name = "SatchelCharge_Remote_Mag";
+			count = 2;
+		};
+		class DemoCharge_Remote_Mag {
+			name = "DemoCharge_Remote_Mag";
+			count = 2;
+		};
+		class ClaymoreDirectionalMine_Remote_Mag {
+			name = "ClaymoreDirectionalMine_Remote_Mag";
+			count = 3;
+		};
+		class 	AMP_Breaching_Charge_Mag {
+			name = "AMP_Breaching_Charge_Mag";
+			count = 3;
+		};
+	};
 };
 //US pustynne
 class GCT_B_US_Medic: TRYK_B_Medbag {
@@ -229,82 +229,6 @@ class GCT_B_WDL_M240: TRYK_B_Coyotebackpack_OD {
 		count = 4;
 	};
 };
-};	
-//PSZ
-class GCT_B_SL_PSZ: PSZ_B_wz93_WDL {
-	scope = 2;
-	scopeCurator = 1; scopeArsenal = 1;
-    GCT_Author_Macro
-	displayName = "[GCT]Plecak PL (SL/FL)";
-	class TransportMagazines {
-            class PSZ_556x45_Beryl_30_T_R {
-		magazine = "PSZ_556x45_Beryl_30_T_R";
-		count = 3;
-	};
-	class PSZ_556x45_Beryl_30 {
-		magazine = "PSZ_556x45_Beryl_30";
-		count = 10;
-	};
-            class rhs_mag_m67 {
-		magazine = "rhs_mag_m67";
-		count = 3;
-	};
-	class rhs_mag_an_m8hc {
-		magazine = "rhs_mag_an_m8hc";
-		count = 4;
-	};	
-	class rhs_mag_m18_green {
-		magazine = "rhs_mag_m18_green";
-		count = 2;
-	};		
-};	
-    };
-class GCT_B_PSZ_Medic: PSZ_B_wz93_Medical_WDL {
-	scope = 2;
-	scopeCurator = 1; scopeArsenal = 1;
-        GCT_Author_Macro
-	displayName = "[GCT]Plecak PL (medykamenty)";
-class TransportItems {
-
-	class ACE_fieldDressing {
-		name = "ACE_fieldDressing";
-		count = 60;
-	};	
-	class ACE_morphine {
-		name = "ACE_morphine";
-		count = 25;
-	};	
-	class ACE_epinephrine {
-		name = "ACE_epinephrine";
-		count = 10;
-	};
-        class ACE_bloodIV_500 {
-		name = "ACE_bloodIV_500";
-		count = 12;
-	};	
-};	
-	class TransportMagazines {	
-	class PSZ_556x45_Beryl_30 {
-		magazine = "PSZ_556x45_Beryl_30";
-		count = 7;
-	};
-	class rhs_mag_an_m8hc {
-		magazine = "rhs_mag_an_m8hc";
-		count = 4;
-	};	
-};
-};
-class GCT_B_PKM: PSZ_B_wz93_MG_PKM_WDL {
-	scope = 2;
-	scopeCurator = 1; scopeArsenal = 1;
-        GCT_Author_Macro
-	displayName = "[GCT]Plecak PL (PKM)";
-	class TransportMagazines {
-            class rhs_100Rnd_762x54mmR {
-		magazine = "rhs_100Rnd_762x54mmR";
-		count = 4;
-	};
-};
 };
 class GCT_B_RPG7: rhs_rpg_empty {
 	scope = 2;
@@ -326,6 +250,87 @@ class TransportMagazines {
 };
 };
 };
+/*	
+//PSZ
+class PSZ_B_wz93_WDL;
+class PSZ_B_wz93_Medical_WDL;
+class PSZ_B_wz93_MG_PKM_WDL;
+class PSZ_B_wz97_WDL;
+class GCT_B_SL_PSZ: PSZ_B_wz93_WDL {
+	scope = 2;
+	scopeCurator = 1; scopeArsenal = 1;
+    GCT_Author_Macro
+	displayName = "[GCT]Plecak PL (SL/FL)";
+	class TransportMagazines {
+        class PSZ_556x45_Beryl_30_T_R {
+			magazine = "PSZ_556x45_Beryl_30_T_R";
+			count = 3;
+		};
+		class PSZ_556x45_Beryl_30 {
+			magazine = "PSZ_556x45_Beryl_30";
+			count = 10;
+		};
+        class rhs_mag_m67 {
+			magazine = "rhs_mag_m67";
+			count = 3;
+		};
+		class rhs_mag_an_m8hc {
+			magazine = "rhs_mag_an_m8hc";
+			count = 4;
+		};	
+		class rhs_mag_m18_green {
+			magazine = "rhs_mag_m18_green";
+			count = 2;
+		};		
+	};	
+};
+class GCT_B_PSZ_Medic: PSZ_B_wz93_Medical_WDL {
+	scope = 2;
+	scopeCurator = 1; scopeArsenal = 1;
+    GCT_Author_Macro
+	displayName = "[GCT]Plecak PL (medykamenty)";
+	class TransportItems {
+		class ACE_fieldDressing {
+			name = "ACE_fieldDressing";
+			count = 60;
+		};	
+		class ACE_morphine {
+			name = "ACE_morphine";
+			count = 25;
+		};	
+		class ACE_epinephrine {
+			name = "ACE_epinephrine";
+			count = 10;
+		};
+        class ACE_bloodIV_500 {
+			name = "ACE_bloodIV_500";
+			count = 12;
+		};	
+	};	
+	class TransportMagazines {	
+		class PSZ_556x45_Beryl_30 {
+			magazine = "PSZ_556x45_Beryl_30";
+			count = 7;
+		};
+		class rhs_mag_an_m8hc {
+			magazine = "rhs_mag_an_m8hc";
+			count = 4;
+		};	
+	};
+};
+class GCT_B_PKM: PSZ_B_wz93_MG_PKM_WDL {
+	scope = 2;
+	scopeCurator = 1; scopeArsenal = 1;
+    GCT_Author_Macro
+	displayName = "[GCT]Plecak PL (PKM)";
+		class TransportMagazines {
+            class rhs_100Rnd_762x54mmR {
+			magazine = "rhs_100Rnd_762x54mmR";
+			count = 4;
+		};
+	};
+};
+
 class GCT_B_PL_Explo: PSZ_B_wz97_WDL {
 	scope = 2;
     scopeCurator = 1; scopeArsenal = 1;
@@ -352,13 +357,17 @@ class TransportItems {
 		name = "ClaymoreDirectionalMine_Remote_Mag";
 		count = 1;
 };
+		class 	AMP_Breaching_Charge_Mag {
+			name = "AMP_Breaching_Charge_Mag";
+			count = 3;
+		};
 	class rhs_mine_pmn2_mag {
 		name = "rhs_mine_pmn2_mag";
 		count = 2;
-};
-	
+};	
 };	
 };
+*/
 //SF
 class GCT_B_WDL_SEAL_SL: fatpack_od {
 	scope = 2;
